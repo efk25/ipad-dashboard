@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<title>Dashboard</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="apple-mobile-web-app-title" content="Dashboard">
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body { height: 100%; background: #0c0d10; color: #f2f2f0; overflow: hidden;
+    font-family: -apple-system, "Helvetica Neue", Helvetica, Arial, sans-serif; }
+  body { padding: 4vmin; display: -webkit-flex; display: flex; -webkit-flex-direction: column; flex-direction: column; }
+
+  .top { text-align: center; padding-bottom: 3vmin; }
+  #clock { font-size: 22vmin; font-weight: 200; letter-spacing: -0.02em; line-height: 1; }
+  #date { font-size: 4vmin; color: #9a9ca3; margin-top: 1.5vmin; text-transform: capitalize; }
+
+  .row { display: -webkit-flex; display: flex; -webkit-flex: 1; flex: 1; min-height: 0; margin: 0 -1.5vmin; }
+  .card { -webkit-flex: 1; flex: 1; margin: 1.5vmin; background: #16181d; border-radius: 3vmin; padding: 3.5vmin; overflow: hidden; }
+  .label { font-size: 2.2vmin; letter-spacing: 0.14em; text-transform: uppercase; color: #6f727a; margin-bottom: 2vmin; }
+
+  #wIcon { font-size: 11vmin; line-height: 1; }
+  #wTemp { font-size: 11vmin; font-weight: 300; margin-top: 1vmin; }
+  #wDesc { font-size: 3.4vmin; color: #c9cbd1; margin-top: 1vmin; }
+  #wMore { font-size: 2.6vmin; color: #8b8e96; margin-top: 1.5vmin; line-height: 1.5; }
+  .days { display: -webkit-flex; display: flex; margin-top: 2.5vmin; }
+  .day { -webkit-flex: 1; flex: 1; text-align: center; font-size: 2.4vmin; color: #9a9ca3; }
+  .day b { display: block; font-size: 4.2vmin; font-weight: 400; color: #f2f2f0; margin: 0.6vmin 0; }
+
+  #cdNum { font-size: 22vmin; font-weight: 200; line-height: 1; color: #ff8a4c; }
+  #cdTxt { font-size: 3.2vmin; color: #c9cbd1; margin-top: 1vmin; }
+  #cdSub { font-size: 2.4vmin; color: #6f727a; margin-top: 1vmin; }
+
+  .news-item { padding: 1.6vmin 0; border-top: 1px solid #23262d; }
+  .news-item:first-child { border-top: 0; padding-top: 0; }
+  .news-title { font-size: 3vmin; line-height: 1.25; }
+  .news-src { font-size: 2.1vmin; color: #6f727a; margin-top: 0.5vmin; }
+  .muted { color: #6f727a; font-size: 2.6vmin; line-height: 1.4; }
+
+  .news-card { -webkit-flex: 1.4; flex: 1.4; }
+  @media (orientation: portrait) {
+    .row { -webkit-flex-direction: column; flex-direction: column; }
+    #clock { font-size: 24vmin; }
+  }
+</style>
+</head>
+<body>
+
+<div class="top">
+  <div id="clock">--:--</div>
+  <div id="date"></div>
+</div>
+
+<div class="row">
+  <div class="card">
+    <div class="label">Météo · Paris</div>
+    <div id="wIcon"></div>
+    <div id="wTemp">--°</div>
+    <div id="wDesc">Chargement…</div>
+    <div id="wMore"></div>
+    <div class="days" id="wDays"></div>
+  </div>
+
+  <div class="card">
+    <div class="label">New York</div>
+    <div id="cdNum">--</div>
+    <div id="cdTxt"></div>
+    <div id="cdSub">Départ mer. 2 décembre 2026</div>
+  </div>
+
+  <div class="card news-card">
+    <div class="label" id="newsLabel">Newsletter</div>
+    <div id="news"><div class="muted">Chargement…</div></div>
+  </div>
+</div>
+
+<script>
+/* ---- Réglages ---- */
+var LAT = 48.8566, LON = 2.3522;           // Paris
+var DEPART = new Date(2026, 11, 2);   // départ mer. 2 déc. 2026 (mois 0-indexé)
+var RETOUR = new Date(2026, 11, 6);   // retour dim. 6 déc. 2026
+
+/* ---- Utilitaires (JS volontairement simple, compatible iOS 12) ---- */
+function pad(n) { return n < 10 ? '0' + n : '' + n; }
+var JOURS = ['dimanche','lundi','mardi','mercredi','jeudi','vendredi','samedi'];
+var MOIS = ['janvier','février','mars','avril','mai','juin','juillet','août','septembre','octobre','novembre','décembre'];
+
+function getJSON(url, ok, ko) {
+  var x = new XMLHttpRequest();
+  x.open('GET', url, true);
+  x.onreadystatechange = function () {
+    if (x.readyState !== 4) return;
+    if (x.status >= 200 && x.status < 300) {
+      try { ok(JSON.parse(x.responseText)); } catch (e) { ko(); }
+    } else { ko(); }
+  };
+  x.send();
+}
+
+/* ---- Horloge + date + compte à rebours ---- */
+function tick() {
+  var d = new Date();
+  document.getElementById('clock').textContent = pad(d.getHours()) + ':' + pad(d.getMinutes());
+  document.getElementById('date').textContent =
+    JOURS[d.getDay()] + ' ' + d.getDate() + ' ' + MOIS[d.getMonth()];
+
+  var today = new Date(d.getFullYear(), d.getMonth(), d.getDate());
+  var left = Math.round((DEPART - today) / 86400000);
+  var back = Math.round((RETOUR - today) / 86400000);
+  var num = document.getElementById('cdNum'), txt = document.getElementById('cdTxt'), sub = document.getElementById('cdSub');
+  if (left > 1)        { num.textContent = left; txt.textContent = 'jours avant le départ'; }
+  else if (left === 1) { num.textContent = 'J-1'; txt.textContent = 'valises et passeport prêts ?'; }
+  else if (left === 0) { num.textContent = 'J-0'; txt.textContent = 'c\u2019est aujourd\u2019hui, bon vol !'; }
+  else if (back > 0)   { num.textContent = back; txt.textContent = 'jours avant le retour'; sub.textContent = 'Retour dim. 6 décembre'; }
+  else                 { num.textContent = '✓'; txt.textContent = 'Voyage terminé'; sub.textContent = ''; }
+}
+
+/* ---- Météo (Open-Meteo, sans clé API) ---- */
+var WMO = {
+  0:['☀️','Ciel dégagé'], 1:['🌤️','Plutôt dégagé'], 2:['⛅','Partiellement nuageux'], 3:['☁️','Couvert'],
+  45:['🌫️','Brouillard'], 48:['🌫️','Brouillard givrant'],
+  51:['🌦️','Bruine légère'], 53:['🌦️','Bruine'], 55:['🌦️','Bruine dense'],
+  61:['🌧️','Pluie faible'], 63:['🌧️','Pluie'], 65:['🌧️','Forte pluie'],
+  66:['🌧️','Pluie verglaçante'], 67:['🌧️','Pluie verglaçante'],
+  71:['🌨️','Neige faible'], 73:['🌨️','Neige'], 75:['❄️','Forte neige'], 77:['🌨️','Grésil'],
+  80:['🌦️','Averses'], 81:['🌦️','Averses'], 82:['⛈️','Fortes averses'],
+  85:['🌨️','Averses de neige'], 86:['🌨️','Averses de neige'],
+  95:['⛈️','Orage'], 96:['⛈️','Orage et grêle'], 99:['⛈️','Orage et grêle']
+};
+function wmo(c) { return WMO[c] || ['🌡️', '—']; }
+
+function loadWeather() {
+  var url = 'https://api.open-meteo.com/v1/forecast?latitude=' + LAT + '&longitude=' + LON +
+    '&current=temperature_2m,apparent_temperature,weather_code,wind_speed_10m' +
+    '&daily=weather_code,temperature_2m_max,temperature_2m_min,precipitation_probability_max' +
+    '&timezone=Europe%2FParis&forecast_days=4';
+  getJSON(url, function (w) {
+    var c = w.current, d = w.daily, m = wmo(c.weather_code);
+    document.getElementById('wIcon').textContent = m[0];
+    document.getElementById('wTemp').textContent = Math.round(c.temperature_2m) + '°';
+    document.getElementById('wDesc').textContent = m[1];
+    document.getElementById('wMore').innerHTML =
+      'Ressenti ' + Math.round(c.apparent_temperature) + '° · Vent ' + Math.round(c.wind_speed_10m) + ' km/h<br>' +
+      'Aujourd’hui ' + Math.round(d.temperature_2m_min[0]) + '° / ' + Math.round(d.temperature_2m_max[0]) +
+      '° · Pluie ' + d.precipitation_probability_max[0] + ' %';
+    var html = '';
+    for (var i = 1; i < d.time.length; i++) {
+      var dt = new Date(d.time[i] + 'T12:00:00');
+      html += '<div class="day">' + JOURS[dt.getDay()].substr(0, 3) + '.<b>' + wmo(d.weather_code[i])[0] +
+        '</b>' + Math.round(d.temperature_2m_min[i]) + '° / ' + Math.round(d.temperature_2m_max[i]) + '°</div>';
+    }
+    document.getElementById('wDays').innerHTML = html;
+  }, function () {
+    document.getElementById('wDesc').textContent = 'Météo indisponible';
+  });
+}
+
+/* ---- Newsletter : lit newsletter.json (même dossier) ----
+   Format attendu :
+   { "title": "Matinale du 21 nov.", "items": [ { "title": "...", "source": "..." }, ... ] } */
+function esc(s) {
+  return String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+}
+function loadNews() {
+  getJSON('newsletter.json?t=' + new Date().getTime(), function (n) {
+    if (n.title) document.getElementById('newsLabel').textContent = n.title;
+    var items = n.items || [], html = '';
+    for (var i = 0; i < items.length && i < 6; i++) {
+      html += '<div class="news-item"><div class="news-title">' + esc(items[i].title) + '</div>' +
+        (items[i].source ? '<div class="news-src">' + esc(items[i].source) + '</div>' : '') + '</div>';
+    }
+    document.getElementById('news').innerHTML = html || '<div class="muted">Aucun article.</div>';
+  }, function () {
+    document.getElementById('news').innerHTML =
+      '<div class="muted">Pas encore de newsletter.json.<br>Ajoute-le dans le même dossier que cette page.</div>';
+  });
+}
+
+/* ---- Lancement + rafraîchissements ---- */
+tick(); loadWeather(); loadNews();
+setInterval(tick, 1000);
+setInterval(loadWeather, 15 * 60 * 1000);   // météo : toutes les 15 min
+setInterval(loadNews, 30 * 60 * 1000);      // newsletter : toutes les 30 min
+</script>
+</body>
+</html>

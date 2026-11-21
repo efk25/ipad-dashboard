@@ -1,0 +1,8 @@
+{
+  "title": "Matinale · exemple",
+  "items": [
+    { "title": "Remplace ce fichier par la sortie de ta newsletter", "source": "newsletter-matinale" },
+    { "title": "Un titre = un objet { title, source } dans la liste items", "source": "format JSON" },
+    { "title": "Six articles maximum sont affichés", "source": "dashboard" }
+  ]
+}
