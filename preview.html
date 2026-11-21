@@ -30,9 +30,13 @@
   /* Grille */
   .grid { flex: 1; min-height: 0; display: grid; grid-gap: 1.4vmin;
     grid-template-columns: 1fr 1fr 1.7fr; grid-template-rows: 1fr 1.25fr 0.55fr;
-    grid-template-areas: "clock clock news" "wx cd news" "date date news"; }
+    grid-template-areas: "clock clock news" "wx cd news" "wx date news"; }
+  /* Le dernier bloc de chaque carte est poussé en bas ; en cas de manque de place, il déborde vers le bas,
+     jamais par-dessus le titre. */
   .card { background: #1c1c20; padding: 2.6vmin; position: relative; overflow: hidden; min-width: 0; min-height: 0;
-    display: flex; flex-direction: column; justify-content: space-between; }
+    display: flex; flex-direction: column; justify-content: flex-start; }
+  .card > :last-child { margin-top: auto; }
+  .card > .lbl, .card > .wx-top { margin-bottom: 1.4vmin; }
   .lbl { font-size: 1.65vmin; letter-spacing: 0.12em; color: #7f8189; }
   .card.blue { background: #4f6490; }
   .card.blue .lbl { color: rgba(243,241,231,0.72); }
@@ -47,8 +51,8 @@
   .unit { font-size: 2vmin; color: rgba(243,241,231,0.72); letter-spacing: 0.1em; padding-bottom: 1.4vmin; }
 
   .wx-top { display: flex; justify-content: space-between; align-items: flex-start; }
-  #wIcon { font-size: 4.6vmin; line-height: 1; text-transform: none; }
-  #wTemp { font-size: 10.5vmin; font-weight: 300; line-height: 1; letter-spacing: -0.04em; }
+  #wIcon { font-size: 4vmin; line-height: 1; text-transform: none; }
+  #wTemp { font-size: 9.5vmin; font-weight: 300; line-height: 1; letter-spacing: -0.04em; }
   #wDesc { font-size: 1.9vmin; letter-spacing: 0.08em; margin-top: 1vmin; }
   #wMore { font-size: 1.45vmin; line-height: 1.7; color: #7f8189; margin-top: 0.8vmin; letter-spacing: 0.06em; }
   .days { display: flex; border-top: 1px solid #2b2c32; margin-top: 1.6vmin; padding-top: 1.4vmin; }
@@ -59,8 +63,8 @@
   #cdTxt { font-size: 1.8vmin; letter-spacing: 0.08em; margin-top: 1vmin; line-height: 1.4; }
   #cdSub { font-size: 1.45vmin; color: #7f8189; margin-top: 1.4vmin; padding-top: 1.4vmin; border-top: 1px solid #2b2c32; letter-spacing: 0.06em; }
 
-  #date { font-size: 4.6vmin; line-height: 1.05; letter-spacing: -0.01em; font-weight: 400; }
-  #dateWeek { font-size: 1.9vmin; letter-spacing: 0.1em; }
+  #date { font-size: 3.4vmin; line-height: 1.1; letter-spacing: -0.01em; font-weight: 400; }
+  #dateWeek { font-size: 1.65vmin; letter-spacing: 0.12em; color: rgba(23,24,28,0.6); }
 
   .c-news { padding-bottom: 1.6vmin; }
   #news { margin-top: 1.6vmin; flex: 1; min-height: 0; overflow: hidden; }
@@ -89,13 +93,13 @@
 
   @media (orientation: portrait) {
     .grid { grid-template-columns: 1fr 1fr; grid-template-rows: 0.8fr 2.4fr 1.2fr 0.5fr;
-      grid-template-areas: "clock clock" "news news" "wx cd" "date date"; }
+      grid-template-areas: "clock clock" "news news" "wx cd" "wx date"; }
     #clock { font-size: 22vmin; }
-    #wTemp { font-size: 12vmin; } #cdNum { font-size: 15vmin; }
+    #wTemp { font-size: 12vmin; } #cdNum { font-size: 12vmin; }
     .news-title { font-size: 2.9vmin; } .news-num { font-size: 2vmin; } .news-src { font-size: 1.6vmin; }
     .lbl { font-size: 1.9vmin; } .kv span { font-size: 1.6vmin; } .kv b { font-size: 2.2vmin; }
     #wDesc { font-size: 2.2vmin; } #wMore, #cdSub, .day { font-size: 1.6vmin; } #cdTxt { font-size: 2vmin; }
-    #date { font-size: 5vmin; }
+    #date { font-size: 3.8vmin; } #dateWeek { font-size: 1.9vmin; }
   }
 </style>
 </head>
@@ -139,8 +143,8 @@
   </div>
 
   <div class="card stone c-date">
-    <div class="lbl">Aujourd’hui</div>
-    <div class="row-end"><div id="date"></div><div id="dateWeek"></div></div>
+    <div class="wx-top"><div class="lbl">Aujourd’hui</div><div id="dateWeek"></div></div>
+    <div id="date"></div>
   </div>
 
   <div class="card c-news">
