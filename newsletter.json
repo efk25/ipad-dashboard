@@ -1,11 +1,41 @@
 {
   "title": "Matinale · samedi 21 novembre",
   "items": [
-    { "title": "GTA VI : plus commenté que la Coupe du monde, mais pas partout", "source": "Actu · Aktionnaire / WSJ" },
-    { "title": "Introduction en Bourse d'Anthropic : Ashton Kutcher, gagnant discret", "source": "Actu · Aktionnaire" },
-    { "title": "Le gouvernement renonce aux trains de nuit neufs", "source": "Actu · Les Echos" },
-    { "title": "Agents sur ordinateur : Apple prépare le sien, Google lance le sien sur Mac", "source": "Tech · Bloomberg / Google" },
-    { "title": "Souveraineté cloud : OVHcloud dévoile 55 produits, Workday crée une entité européenne", "source": "Tech · TLDR IT" },
-    { "title": "Jetty : la deuxième vie des fondateurs de Poppi divise", "source": "Beauté · Beauty Independent" }
+    {
+      "title": "GTA VI : plus commenté que la Coupe du monde, mais pas partout",
+      "source": "Actu · Aktionnaire / WSJ",
+      "url": "https://www.lefigaro.fr/secteur/high-tech/le-lancement-de-gta-vi-plus-commente-que-celui-de-la-coupe-du-monde-2026-sur-les-reseaux-sociaux-20261119",
+      "summary": "Le lancement a généré 2,6 millions de messages en 24 heures sur les réseaux sociaux, soit environ 1 850 par minute et 7 % de plus qu'au coup d'envoi de la Coupe du monde 2026. Mais le jeu n'est pas accessible à tous : en Asie, troisième marché mondial du jeu vidéo, une dizaine de millions de joueurs n'y ont pas encore accès ; au Japon, certaines images ont été censurées, et en Chine, il est tout simplement interdit à la distribution.\nCôté chiffres, le WSJ table sur plus de 30 millions d'exemplaires vendus d'ici la fin de l'exercice de Rockstar en mars, pour un budget estimé à 1,4 Md$. À titre de comparaison, l'épisode précédent s'est écoulé à près de 230 millions d'exemplaires et a généré 10,78 Md$ de revenus depuis 2013."
+    },
+    {
+      "title": "Introduction en Bourse d'Anthropic : Ashton Kutcher, gagnant discret",
+      "source": "Actu · Aktionnaire",
+      "url": "https://mailchi.mp/aktionnaire/qu-est-ce-qui-attend-anthropic?e=d9ac1327e9",
+      "summary": "L'acteur est cofondateur du fonds Sound Ventures, qui a investi 435 M$ dans la startup à ses débuts et détiendrait aujourd'hui environ 11 Md$ d'actions, selon Bloomberg.\nAktionnaire en profite pour rappeler un phénomène de fond : d'après une étude de Morgan Stanley, les entreprises américaines mettent désormais un peu plus de 10 ans à entrer en Bourse, contre environ 8 ans auparavant. Conséquence : les investisseurs qui achètent à l'IPO n'accèdent plus aux prix des investisseurs historiques, qui ont capté une grande partie de la valorisation en amont, ce qui nourrit l'intérêt pour le private equity."
+    },
+    {
+      "title": "Le gouvernement renonce aux trains de nuit neufs",
+      "source": "Actu · Les Echos",
+      "url": "https://www.lesechos.fr/industrie-services/tourisme-transport/le-gouvernement-enterre-son-projet-de-nouveaux-trains-de-nuit-2263514",
+      "summary": "L'exécutif abandonne son projet d'achat de nouvelles rames de trains de nuit et fera plutôt rénover les anciennes voitures Corail de la SNCF."
+    },
+    {
+      "title": "Agents sur ordinateur : Apple prépare le sien, Google lance le sien sur Mac",
+      "source": "Tech · Bloomberg / Google",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/computer-use-mac/",
+      "summary": "Selon Bloomberg, Apple recrute un senior engineering manager pour un assistant agentique proactif, capable d'écrire du code, de naviguer sur le web, de contrôler des apps et de piloter les appareils pour le compte de l'utilisateur. L'agent planifierait des tâches multi-étapes à travers apps, navigateurs, lignes de commande, code et APIs, en coordonnant des sous-agents spécialisés.\nEn parallèle, l'App Store étant envahi par des agents IA, la future mise à jour macOS 27.3 ajoutera un avertissement qui invite l'utilisateur à reconsidérer l'autorisation donnée aux agents tiers de contrôler son Mac.\nCôté Google, le « computer use » de l'app Gemini pour Mac exécute désormais des tâches multi-étapes sur les fichiers locaux, les apps et le web, dans une fenêtre d'arrière-plan isolée avec aperçu en direct : l'utilisateur choisit les apps accessibles, suit chaque étape, peut mettre en pause et valide les actions clés."
+    },
+    {
+      "title": "Souveraineté cloud : OVHcloud dévoile 55 produits, Workday crée une entité européenne",
+      "source": "Tech · TLDR IT",
+      "url": "https://www.cloudcomputing-news.net/news/ovhcloud-cloud-ai-products-europe-sovereignty/",
+      "summary": "Lors de son sommet à Paris, OVHcloud a présenté 55 offres cloud et IA, couvrant infrastructure, réseau, outils de développement et applications d'entreprise, avec l'ajout prévu des GPU Nvidia Blackwell B300 et Rubin R200.\nDe son côté, Workday prévoit de créer une société basée en Irlande, dotée d'un conseil d'administration composé de citoyens de l'UE, pour opérer son EU Sovereign Cloud, qui tourne sur AWS European Sovereign Cloud. Cette entité et ses garanties supplémentaires sur les données doivent être opérationnelles début 2027."
+    },
+    {
+      "title": "Jetty : la deuxième vie des fondateurs de Poppi divise",
+      "source": "Beauté · Beauty Independent",
+      "url": "https://www.beautyindependent.com/poppi-founders-jetty-critics/",
+      "summary": "Après avoir vendu Poppi à PepsiCo pour 1,95 Md$, Allison et Stephen Ellsworth reviennent avec la marque d'hydratation Jetty, mais ce second acte très attendu suscite plus de critiques que d'applaudissements. Les reproches portent sur une campagne de pré-lancement jugée confuse, un packaging très moqué, le recours à l'IA et l'entrée sur un marché de l'hydratation déjà encombré.\nBeauty Independent examine aussi comment le succès de Poppi a changé la perception d'Allison Ellsworth. Le contre-argument : le bad buzz pourrait jouer en faveur de la marque, puisque Brooke Yoakam (The Brand Blueprint) estime que cette hostilité va convertir des essais en vrais fans ; reste à transformer l'attention en achats répétés."
+    }
   ]
 }

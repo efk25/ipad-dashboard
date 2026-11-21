@@ -39,6 +39,20 @@
   .news-src { font-size: 2.1vmin; color: #6f727a; margin-top: 0.5vmin; }
   .muted { color: #6f727a; font-size: 2.6vmin; line-height: 1.4; }
 
+  .news-item.clickable { cursor: pointer; -webkit-tap-highlight-color: rgba(255,255,255,0.08); }
+  .news-item.clickable:active .news-title { color: #ff8a4c; }
+
+  /* Lecteur d'article (plein écran, défilable) */
+  #reader { display: none; position: fixed; top: 0; left: 0; right: 0; bottom: 0; z-index: 10;
+    background: #0c0d10; overflow-y: auto; -webkit-overflow-scrolling: touch; padding: 5vmin 7vmin 8vmin; }
+  #reader .r-inner { max-width: 110vmin; margin: 0 auto; }
+  #rClose { display: block; margin-left: auto; font-size: 3.4vmin; color: #f2f2f0; background: #23262d; border: 0;
+    border-radius: 3vmin; padding: 1.8vmin 4vmin; font-family: inherit; }
+  #rSrc { font-size: 2.3vmin; letter-spacing: 0.14em; text-transform: uppercase; color: #ff8a4c; margin-top: 3vmin; }
+  #rTitle { font-size: 5.2vmin; font-weight: 600; line-height: 1.2; margin-top: 1.5vmin; }
+  #rBody p { font-size: 3.6vmin; line-height: 1.6; color: #d8dae0; margin-top: 3vmin; }
+  #rLink { display: inline-block; margin-top: 4vmin; font-size: 3vmin; color: #8b8e96; }
+
   .news-card { -webkit-flex: 1.4; flex: 1.4; }
   @media (orientation: portrait) {
     .row { -webkit-flex-direction: column; flex-direction: column; }
@@ -73,6 +87,16 @@
   <div class="card news-card">
     <div class="label" id="newsLabel">Newsletter</div>
     <div id="news"><div class="muted">Chargement…</div></div>
+  </div>
+</div>
+
+<div id="reader">
+  <div class="r-inner">
+    <button id="rClose" type="button" onclick="closeReader()">Fermer ✕</button>
+    <div id="rSrc"></div>
+    <div id="rTitle"></div>
+    <div id="rBody"></div>
+    <a id="rLink" href="#" target="_blank" style="display:none">Ouvrir l'article complet ↗</a>
   </div>
 </div>
 
@@ -163,12 +187,36 @@ function loadWeather() {
 function esc(s) {
   return String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
 }
+var NEWS = [];
+function openReader(i) {
+  var it = NEWS[i];
+  if (!it) return;
+  var paras = String(it.summary || '').split('\n'), body = '';
+  for (var k = 0; k < paras.length; k++) {
+    if (paras[k].replace(/\s/g, '')) body += '<p>' + esc(paras[k]) + '</p>';
+  }
+  document.getElementById('rSrc').textContent = it.source || '';
+  document.getElementById('rTitle').textContent = it.title || '';
+  document.getElementById('rBody').innerHTML = body;
+  var link = document.getElementById('rLink');
+  if (it.url && /^https?:\/\//.test(it.url)) { link.href = it.url; link.style.display = 'inline-block'; }
+  else { link.style.display = 'none'; }
+  var r = document.getElementById('reader');
+  r.style.display = 'block';
+  r.scrollTop = 0;
+}
+function closeReader() {
+  document.getElementById('reader').style.display = 'none';
+}
 function loadNews() {
   getJSON('newsletter.json?t=' + new Date().getTime(), function (n) {
     if (n.title) document.getElementById('newsLabel').textContent = n.title;
     var items = n.items || [], html = '';
+    NEWS = items;
     for (var i = 0; i < items.length && i < 6; i++) {
-      html += '<div class="news-item"><div class="news-title">' + esc(items[i].title) + '</div>' +
+      var can = !!items[i].summary;
+      html += '<div class="news-item' + (can ? ' clickable" onclick="openReader(' + i + ')' : '') + '">' +
+        '<div class="news-title">' + esc(items[i].title) + '</div>' +
         (items[i].source ? '<div class="news-src">' + esc(items[i].source) + '</div>' : '') + '</div>';
     }
     document.getElementById('news').innerHTML = html || '<div class="muted">Aucun article.</div>';
