@@ -1,8 +1,11 @@
 {
-  "title": "Matinale · exemple",
+  "title": "Matinale · samedi 21 novembre",
   "items": [
-    { "title": "Remplace ce fichier par la sortie de ta newsletter", "source": "newsletter-matinale" },
-    { "title": "Un titre = un objet { title, source } dans la liste items", "source": "format JSON" },
-    { "title": "Six articles maximum sont affichés", "source": "dashboard" }
+    { "title": "GTA VI : plus commenté que la Coupe du monde, mais pas partout", "source": "Actu · Aktionnaire / WSJ" },
+    { "title": "Introduction en Bourse d'Anthropic : Ashton Kutcher, gagnant discret", "source": "Actu · Aktionnaire" },
+    { "title": "Le gouvernement renonce aux trains de nuit neufs", "source": "Actu · Les Echos" },
+    { "title": "Agents sur ordinateur : Apple prépare le sien, Google lance le sien sur Mac", "source": "Tech · Bloomberg / Google" },
+    { "title": "Souveraineté cloud : OVHcloud dévoile 55 produits, Workday crée une entité européenne", "source": "Tech · TLDR IT" },
+    { "title": "Jetty : la deuxième vie des fondateurs de Poppi divise", "source": "Beauté · Beauty Independent" }
   ]
 }
