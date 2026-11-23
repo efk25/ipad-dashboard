@@ -1,41 +1,29 @@
 {
-  "title": "Matinale · samedi 21 novembre",
+  "title": "Matinale · lundi 23 novembre",
   "items": [
     {
-      "title": "GTA VI : plus commenté que la Coupe du monde, mais pas partout",
-      "source": "Actu · Aktionnaire / WSJ",
-      "url": "https://www.lefigaro.fr/secteur/high-tech/le-lancement-de-gta-vi-plus-commente-que-celui-de-la-coupe-du-monde-2026-sur-les-reseaux-sociaux-20261119",
-      "summary": "Le lancement a généré 2,6 millions de messages en 24 heures sur les réseaux sociaux, soit environ 1 850 par minute et 7 % de plus qu'au coup d'envoi de la Coupe du monde 2026. Mais le jeu n'est pas accessible à tous : en Asie, troisième marché mondial du jeu vidéo, une dizaine de millions de joueurs n'y ont pas encore accès ; au Japon, certaines images ont été censurées, et en Chine, il est tout simplement interdit à la distribution.\nCôté chiffres, le WSJ table sur plus de 30 millions d'exemplaires vendus d'ici la fin de l'exercice de Rockstar en mars, pour un budget estimé à 1,4 Md$. À titre de comparaison, l'épisode précédent s'est écoulé à près de 230 millions d'exemplaires et a généré 10,78 Md$ de revenus depuis 2013."
+      "title": "Wall Street : pire semaine depuis mars 2020, Nvidia en première ligne",
+      "source": "Actu générale · Aktionnaire",
+      "url": "https://www.nytimes.com/2026/11/20/business/anthropic-ai-stocks-sp500.html",
+      "summary": "Nvidia a perdu environ 23 % sur la semaine (dont 14 % vendredi) et plus de 40 % depuis octobre, sa pire séquence depuis 2008. À elle seule, elle explique la moitié du recul du S&P 500 depuis son sommet : l'indice est désormais en zone de correction et le Nasdaq a effacé ses gains de l'année. Même de bons résultats et l'introduction en Bourse d'Anthropic, qui a reculé dès ses premiers jours, n'ont pas rassuré. Trois facteurs pèsent : les doutes sur le financement des investissements IA des géants du cloud, la perspective d'un durcissement réglementaire après la victoire démocrate aux midterms et la démission de Jensen Huang. Le bitcoin passe sous 60 000 $, l'or cède près de 6 % et le Stoxx 600 recule d'environ 6 % depuis son pic de novembre. Éclatement de la bulle IA ? Il est trop tôt pour le dire : Bank of America juge l'euphorie terminée et Goldman Sachs prévient que la baisse pourrait s'aggraver cette semaine, mais selon FactSet les PER prévisionnels de la tech sont au plus bas depuis 2020."
     },
     {
-      "title": "Introduction en Bourse d'Anthropic : Ashton Kutcher, gagnant discret",
-      "source": "Actu · Aktionnaire",
-      "url": "https://mailchi.mp/aktionnaire/qu-est-ce-qui-attend-anthropic?e=d9ac1327e9",
-      "summary": "L'acteur est cofondateur du fonds Sound Ventures, qui a investi 435 M$ dans la startup à ses débuts et détiendrait aujourd'hui environ 11 Md$ d'actions, selon Bloomberg.\nAktionnaire en profite pour rappeler un phénomène de fond : d'après une étude de Morgan Stanley, les entreprises américaines mettent désormais un peu plus de 10 ans à entrer en Bourse, contre environ 8 ans auparavant. Conséquence : les investisseurs qui achètent à l'IPO n'accèdent plus aux prix des investisseurs historiques, qui ont capté une grande partie de la valorisation en amont, ce qui nourrit l'intérêt pour le private equity."
+      "title": "COP 31 : échec, l'UE refuse la déclaration finale",
+      "source": "Actu générale · Aktionnaire",
+      "url": "https://www.franceinfo.fr/environnement/crise-climatique/cop-climat/on-vous-resume-les-points-de-discorde-a-la-cop31-alors-que-les-discussions-sur-un-accord-s-enlisent_8294597.html",
+      "summary": "Après deux jours de prolongation, l'Union européenne s'est opposée à l'adoption de la déclaration finale de la COP 31. Le point de blocage : la sortie des énergies fossiles. L'UE, plusieurs pays du Pacifique et d'Amérique latine voulaient des engagements plus ambitieux, mais les producteurs d'hydrocarbures, Arabie saoudite en tête, s'y opposaient. Le texte ne mentionnait pas explicitement cette sortie et se bornait à un renvoi indirect à l'engagement de la COP 28 de Dubaï. Aktionnaire parle du pire échec depuis Copenhague en 2009."
     },
     {
-      "title": "Le gouvernement renonce aux trains de nuit neufs",
-      "source": "Actu · Les Echos",
-      "url": "https://www.lesechos.fr/industrie-services/tourisme-transport/le-gouvernement-enterre-son-projet-de-nouveaux-trains-de-nuit-2263514",
-      "summary": "L'exécutif abandonne son projet d'achat de nouvelles rames de trains de nuit et fera plutôt rénover les anciennes voitures Corail de la SNCF."
+      "title": "Worldline accusé d'avoir gonflé ses flux de trésorerie",
+      "source": "Actu générale · Aktionnaire",
+      "url": "https://www.tradingsat.com/worldline-FR00140182K6/actualites/worldline-accuse-d-avoir-volontairement-retarde-des-versements-pour-gonfler-ses-resultats-le-groupe-de-paiements-worldline-devisse-de-16-en-bourse-1174181.html",
+      "summary": "Le spécialiste français des paiements est accusé d'avoir, entre 2021 et 2023, retardé le paiement de ses fournisseurs et exigé des avances de ses clients juste avant la publication de ses résultats. Selon un rapport interne de PwC de fin 2023, ces pratiques auraient gonflé ses flux de trésorerie d'environ 38 %. Elles ne sont pas illégales, mais auraient donné aux actionnaires une image trompeuse de sa santé financière. Le titre a chuté d'environ 15 % vendredi."
     },
     {
-      "title": "Agents sur ordinateur : Apple prépare le sien, Google lance le sien sur Mac",
-      "source": "Tech · Bloomberg / Google",
-      "url": "https://blog.google/innovation-and-ai/products/gemini-app/computer-use-mac/",
-      "summary": "Selon Bloomberg, Apple recrute un senior engineering manager pour un assistant agentique proactif, capable d'écrire du code, de naviguer sur le web, de contrôler des apps et de piloter les appareils pour le compte de l'utilisateur. L'agent planifierait des tâches multi-étapes à travers apps, navigateurs, lignes de commande, code et APIs, en coordonnant des sous-agents spécialisés.\nEn parallèle, l'App Store étant envahi par des agents IA, la future mise à jour macOS 27.3 ajoutera un avertissement qui invite l'utilisateur à reconsidérer l'autorisation donnée aux agents tiers de contrôler son Mac.\nCôté Google, le « computer use » de l'app Gemini pour Mac exécute désormais des tâches multi-étapes sur les fichiers locaux, les apps et le web, dans une fenêtre d'arrière-plan isolée avec aperçu en direct : l'utilisateur choisit les apps accessibles, suit chaque étape, peut mettre en pause et valide les actions clés."
-    },
-    {
-      "title": "Souveraineté cloud : OVHcloud dévoile 55 produits, Workday crée une entité européenne",
-      "source": "Tech · TLDR IT",
-      "url": "https://www.cloudcomputing-news.net/news/ovhcloud-cloud-ai-products-europe-sovereignty/",
-      "summary": "Lors de son sommet à Paris, OVHcloud a présenté 55 offres cloud et IA, couvrant infrastructure, réseau, outils de développement et applications d'entreprise, avec l'ajout prévu des GPU Nvidia Blackwell B300 et Rubin R200.\nDe son côté, Workday prévoit de créer une société basée en Irlande, dotée d'un conseil d'administration composé de citoyens de l'UE, pour opérer son EU Sovereign Cloud, qui tourne sur AWS European Sovereign Cloud. Cette entité et ses garanties supplémentaires sur les données doivent être opérationnelles début 2027."
-    },
-    {
-      "title": "Jetty : la deuxième vie des fondateurs de Poppi divise",
-      "source": "Beauté · Beauty Independent",
-      "url": "https://www.beautyindependent.com/poppi-founders-jetty-critics/",
-      "summary": "Après avoir vendu Poppi à PepsiCo pour 1,95 Md$, Allison et Stephen Ellsworth reviennent avec la marque d'hydratation Jetty, mais ce second acte très attendu suscite plus de critiques que d'applaudissements. Les reproches portent sur une campagne de pré-lancement jugée confuse, un packaging très moqué, le recours à l'IA et l'entrée sur un marché de l'hydratation déjà encombré.\nBeauty Independent examine aussi comment le succès de Poppi a changé la perception d'Allison Ellsworth. Le contre-argument : le bad buzz pourrait jouer en faveur de la marque, puisque Brooke Yoakam (The Brand Blueprint) estime que cette hostilité va convertir des essais en vrais fans ; reste à transformer l'attention en achats répétés."
+      "title": "L'Oréal investit près de 300 M€ en France d'ici 2029",
+      "source": "Beauté · Aktionnaire",
+      "url": "https://www.lefigaro.fr/societes/l-oreal-va-investir-pres-de-300-millions-d-euros-en-france-d-ici-2029-pour-moderniser-ses-usines-et-ses-laboratoires-20261120",
+      "summary": "Le groupe prévoit de moderniser ses usines et ses laboratoires de recherche français en s'appuyant sur l'IA, pour un montant proche de 300 M€ d'ici 2029. Une annonce qui s'inscrit dans la semaine « Choose France » consacrée aux investissements des entreprises tricolores, dont les dépenses d'investissement reculent depuis quatre trimestres de suite."
     }
   ]
 }
