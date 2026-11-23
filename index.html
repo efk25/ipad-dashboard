@@ -306,6 +306,17 @@ tick(); loadWeather(); loadNews();
 setInterval(tick, 1000);
 setInterval(loadWeather, 15 * 60 * 1000);   // météo : toutes les 15 min
 setInterval(loadNews, 30 * 60 * 1000);      // newsletter : toutes les 30 min
+
+/* ---- Rechargement automatique : chaque nuit vers 4 h, pour récupérer les mises à jour de la page.
+   Ne se déclenche pas si le lecteur d'article est ouvert, ni si la page vient d'être chargée. ---- */
+var LOADED_AT = new Date().getTime();
+setInterval(function () {
+  var now = new Date();
+  var readerOpen = document.getElementById('reader').style.display === 'block';
+  if (now.getHours() === 4 && !readerOpen && now.getTime() - LOADED_AT > 2 * 3600 * 1000) {
+    location.reload(true);
+  }
+}, 60 * 1000);
 </script>
 </body>
 </html>
