@@ -1,29 +1,41 @@
 {
-  "title": "Matinale · lundi 23 novembre",
+  "title": "Matinale · mardi 24 novembre",
   "items": [
     {
-      "title": "Wall Street : pire semaine depuis mars 2020, Nvidia en première ligne",
+      "title": "Nvidia : Jensen Huang réintégré, +952 Md$ de capitalisation en une séance",
       "source": "Actu générale · Aktionnaire",
-      "url": "https://www.nytimes.com/2026/11/20/business/anthropic-ai-stocks-sp500.html",
-      "summary": "Nvidia a perdu environ 23 % sur la semaine (dont 14 % vendredi) et plus de 40 % depuis octobre, sa pire séquence depuis 2008. À elle seule, elle explique la moitié du recul du S&P 500 depuis son sommet : l'indice est désormais en zone de correction et le Nasdaq a effacé ses gains de l'année. Même de bons résultats et l'introduction en Bourse d'Anthropic, qui a reculé dès ses premiers jours, n'ont pas rassuré. Trois facteurs pèsent : les doutes sur le financement des investissements IA des géants du cloud, la perspective d'un durcissement réglementaire après la victoire démocrate aux midterms et la démission de Jensen Huang. Le bitcoin passe sous 60 000 $, l'or cède près de 6 % et le Stoxx 600 recule d'environ 6 % depuis son pic de novembre. Éclatement de la bulle IA ? Il est trop tôt pour le dire : Bank of America juge l'euphorie terminée et Goldman Sachs prévient que la baisse pourrait s'aggraver cette semaine, mais selon FactSet les PER prévisionnels de la tech sont au plus bas depuis 2020."
+      "url": "https://www.lefigaro.fr/secteur/high-tech/remercie-apres-ses-frasques-extraconjugales-jensen-huang-fait-son-retour-a-la-tete-de-nvidia-20261123",
+      "summary": "Le conseil d'administration de Nvidia a rappelé son fondateur au poste de CEO, une annonce faite avant l'ouverture de Wall Street lundi. L'action a pris environ 30 %, soit un gain de 952 Md$ de capitalisation : le plus gros en une séance de l'histoire boursière, l'équivalent de plus de quatre fois LVMH. Selon Bloomberg, le board a tranché dimanche sous la pression de Donald Trump, la DG par intérim Christiana Kress et d'autres dirigeants n'ayant été informés qu'au dernier moment, et faute de successeur crédible. Aktionnaire y voit la naissance du CEO « too big to fail » : depuis son départ le 12 novembre, Nvidia avait perdu environ 1 500 Md$, et l'IA pourrait représenter jusqu'à un tiers de la croissance du PIB américain en 2026 (Moody's). Les enquêtes sur d'éventuelles ventes illégales de puces à la Chine se poursuivent, avec des auditions au Congrès les 1er et 3 décembre."
     },
     {
-      "title": "COP 31 : échec, l'UE refuse la déclaration finale",
+      "title": "CrowdStrike rachète Zscaler pour 44 Md$, le marché sanctionne",
       "source": "Actu générale · Aktionnaire",
-      "url": "https://www.franceinfo.fr/environnement/crise-climatique/cop-climat/on-vous-resume-les-points-de-discorde-a-la-cop31-alors-que-les-discussions-sur-un-accord-s-enlisent_8294597.html",
-      "summary": "Après deux jours de prolongation, l'Union européenne s'est opposée à l'adoption de la déclaration finale de la COP 31. Le point de blocage : la sortie des énergies fossiles. L'UE, plusieurs pays du Pacifique et d'Amérique latine voulaient des engagements plus ambitieux, mais les producteurs d'hydrocarbures, Arabie saoudite en tête, s'y opposaient. Le texte ne mentionnait pas explicitement cette sortie et se bornait à un renvoi indirect à l'engagement de la COP 28 de Dubaï. Aktionnaire parle du pire échec depuis Copenhague en 2009."
+      "url": "https://www.usine-digitale.fr/cybersecurite/crowdstrike-met-439-milliards-de-dollars-sur-la-table-pour-soffrir-zscaler-et-vient-defier-palo-alto-networks.TLUBCGXCJJDWDLOVLSISVM23UY.html",
+      "summary": "Le spécialiste américain de la cybersécurité CrowdStrike signe l'un des plus gros deals de son secteur en absorbant Zscaler pour environ 44 Md$. L'opération est 100 % en actions : 1,135 action CrowdStrike pour chaque action Zscaler. L'objectif est de mieux concurrencer Microsoft et Palo Alto Networks, alors que l'IA fait exploser le nombre de cyberattaques. Les actionnaires de CrowdStrike, eux, n'apprécient pas la dilution : le titre a reculé de 10,5 % lundi."
     },
     {
-      "title": "Worldline accusé d'avoir gonflé ses flux de trésorerie",
-      "source": "Actu générale · Aktionnaire",
-      "url": "https://www.tradingsat.com/worldline-FR00140182K6/actualites/worldline-accuse-d-avoir-volontairement-retarde-des-versements-pour-gonfler-ses-resultats-le-groupe-de-paiements-worldline-devisse-de-16-en-bourse-1174181.html",
-      "summary": "Le spécialiste français des paiements est accusé d'avoir, entre 2021 et 2023, retardé le paiement de ses fournisseurs et exigé des avances de ses clients juste avant la publication de ses résultats. Selon un rapport interne de PwC de fin 2023, ces pratiques auraient gonflé ses flux de trésorerie d'environ 38 %. Elles ne sont pas illégales, mais auraient donné aux actionnaires une image trompeuse de sa santé financière. Le titre a chuté d'environ 15 % vendredi."
+      "title": "Une preuve de l'hypothèse de Riemann, vérifiée par ordinateur",
+      "source": "Tech · TLDR",
+      "url": "https://links.tldrnewsletter.com/RmvR1X",
+      "summary": "Un chercheur d'Anthropic affirme avoir découvert, avec l'aide de l'IA, une preuve de l'hypothèse de Riemann, le problème sur la répartition des nombres premiers qui résiste depuis 167 ans. La preuve, publiée le 20 novembre sous forme d'une bibliothèque Lean de 17 millions de lignes de code, compile correctement et prouve bien l'énoncé attendu. Les communautés Lean et Mathlib se disent pleinement confiantes ; il reste à la communauté mathématique d'en expliquer les idées dans les prochaines semaines."
     },
     {
-      "title": "L'Oréal investit près de 300 M€ en France d'ici 2029",
-      "source": "Beauté · Aktionnaire",
-      "url": "https://www.lefigaro.fr/societes/l-oreal-va-investir-pres-de-300-millions-d-euros-en-france-d-ici-2029-pour-moderniser-ses-usines-et-ses-laboratoires-20261120",
-      "summary": "Le groupe prévoit de moderniser ses usines et ses laboratoires de recherche français en s'appuyant sur l'IA, pour un montant proche de 300 M€ d'ici 2029. Une annonce qui s'inscrit dans la semaine « Choose France » consacrée aux investissements des entreprises tricolores, dont les dépenses d'investissement reculent depuis quatre trimestres de suite."
+      "title": "L'IA provoque une pénurie de circuits imprimés",
+      "source": "Tech · TLDR IT",
+      "url": "https://www.theregister.com/systems/2026/11/20/ai-boom-threatens-circuit-board-crunch-to-rival-pandemic-era-chip-shortage/5311335",
+      "summary": "La Global Electronics Association alerte sur la demande des serveurs IA, qui tend l'offre de circuits imprimés et évince les commandes de l'automobile, du médical et de l'industrie. Les cartes de plus en plus complexes consomment davantage de matière et de capacité de production. Un vrai soulagement n'est pas attendu avant mi-2028."
+    },
+    {
+      "title": "Bien-être : comment les investisseurs repèrent les marques qui durent",
+      "source": "Beauté · Beauty Independent",
+      "url": "https://www.beautyindependent.com/wellness-investors-retailers-spot-brands-last-dealmaker/",
+      "summary": "Plus d'un tiers des Américains jugent le bien-être central dans leur identité (McKinsey), ce qui attire une foule de marques. Au Dealmaker Summit de Beauty Independent à Londres, investisseurs et retailers ont expliqué leurs critères : coût d'acquisition client, taux de réachat et rentabilité comptent plus que la croissance du chiffre d'affaires. Chez Boots, les clientes cherchent des solutions à un besoin précis plutôt qu'une catégorie de produits. Pour Cristina Nuñez (True Beauty Ventures), la première commande se gagne facilement, mais c'est la seconde qui fait la différence."
+    },
+    {
+      "title": "Le parfum devient le nouveau terrain des collectionneurs, comme les sneakers",
+      "source": "Beauté · Beauty Independent",
+      "url": "https://www.beautyindependent.com/savoir-faire-chris-classic-fragrance-collecting-new-sneaker-culture/",
+      "summary": "Chris Classic, fondateur de Savoir Faire et du showroom de parfums indépendants The Blacknose Lab, explique que le parfum prend la place qu'occupaient les sneakers dans les années 80-90 : les consommateurs ne se contentent plus d'acheter, ils collectionnent, exposent et créent du contenu autour de leur « fragrance closet », rangée par familles (chypres, fougères, gourmands, agrumes). L'interview aborde aussi les opportunités pour les parfumeurs indépendants noirs, l'essor des marques portées par des créateurs et la volonté d'organiser les parfumeurs indépendants."
     }
   ]
 }
