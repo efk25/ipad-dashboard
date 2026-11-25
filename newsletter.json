@@ -1,41 +1,41 @@
 {
-  "title": "Matinale · mardi 24 novembre",
+  "title": "Matinale · mercredi 25 novembre",
   "items": [
     {
-      "title": "Nvidia : Jensen Huang réintégré, +952 Md$ de capitalisation en une séance",
+      "title": "Sanofi s'offre Insmed pour 37,6 Md€",
       "source": "Actu générale · Aktionnaire",
-      "url": "https://www.lefigaro.fr/secteur/high-tech/remercie-apres-ses-frasques-extraconjugales-jensen-huang-fait-son-retour-a-la-tete-de-nvidia-20261123",
-      "summary": "Le conseil d'administration de Nvidia a rappelé son fondateur au poste de CEO, une annonce faite avant l'ouverture de Wall Street lundi. L'action a pris environ 30 %, soit un gain de 952 Md$ de capitalisation : le plus gros en une séance de l'histoire boursière, l'équivalent de plus de quatre fois LVMH. Selon Bloomberg, le board a tranché dimanche sous la pression de Donald Trump, la DG par intérim Christiana Kress et d'autres dirigeants n'ayant été informés qu'au dernier moment, et faute de successeur crédible. Aktionnaire y voit la naissance du CEO « too big to fail » : depuis son départ le 12 novembre, Nvidia avait perdu environ 1 500 Md$, et l'IA pourrait représenter jusqu'à un tiers de la croissance du PIB américain en 2026 (Moody's). Les enquêtes sur d'éventuelles ventes illégales de puces à la Chine se poursuivent, avec des auditions au Congrès les 1er et 3 décembre."
+      "summary": "Le labo français rachète la biotech américaine Insmed, sa plus grosse acquisition depuis 2004. L'enjeu : le brevet du Dupixent, qui pèse environ 40 % du chiffre d'affaires, expire en 2031, et Sanofi n'a pas de successeur évident dans son pipeline. Avec Insmed, le groupe récupère deux traitements respiratoires déjà commercialisés, dont le Brinsupri, qui a dépassé 1 Md$ de ventes depuis son lancement. Détail piquant relevé par Aktionnaire : l'ex-patron de Sanofi, évincé en février, siège aujourd'hui au conseil d'Insmed. Le titre Sanofi a pris près de 10 % mardi.",
+      "url": "https://www.lesechos.fr/industrie-services/pharmacie-sante/sanofi-va-racheter-la-biotech-americaine-insmed-pour-41-milliards-de-dollars-2264229"
     },
     {
-      "title": "CrowdStrike rachète Zscaler pour 44 Md$, le marché sanctionne",
+      "title": "La France veut constituer des stocks stratégiques de terres rares",
       "source": "Actu générale · Aktionnaire",
-      "url": "https://www.usine-digitale.fr/cybersecurite/crowdstrike-met-439-milliards-de-dollars-sur-la-table-pour-soffrir-zscaler-et-vient-defier-palo-alto-networks.TLUBCGXCJJDWDLOVLSISVM23UY.html",
-      "summary": "Le spécialiste américain de la cybersécurité CrowdStrike signe l'un des plus gros deals de son secteur en absorbant Zscaler pour environ 44 Md$. L'opération est 100 % en actions : 1,135 action CrowdStrike pour chaque action Zscaler. L'objectif est de mieux concurrencer Microsoft et Palo Alto Networks, alors que l'IA fait exploser le nombre de cyberattaques. Les actionnaires de CrowdStrike, eux, n'apprécient pas la dilution : le titre a reculé de 10,5 % lundi."
+      "summary": "Sur le modèle des réserves pétrolières, l'État veut sécuriser ces métaux indispensables aux smartphones, voitures électriques et semi-conducteurs, dont la Chine détient 40 % des réserves, 70 % de l'extraction et 90 % du raffinage. La Caisse des dépôts va consulter l'aéronautique, la défense et l'automobile pour dimensionner les stocks, et des achats mutualisés entre industriels sont prévus pour mieux négocier les prix. Emmanuel Macron propose aussi de conditionner les aides publiques à la diversification, avec un plafond de 65 % de dépendance à un seul pays par matériau critique ; la France a déjà signé avec une vingtaine de pays producteurs. Restent le financement, encore flou (les États-Unis ont prévu 12 Md$ pour deux mois de stock), et un calendrier que la présidentielle pourrait retarder.",
+      "url": "https://www.franceinfo.fr/replay-radio/histoire-du-jour/pourquoi-la-france-veut-se-doter-de-stocks-strategiques-de-terres-rares_8295902.html"
     },
     {
-      "title": "Une preuve de l'hypothèse de Riemann, vérifiée par ordinateur",
-      "source": "Tech · TLDR",
-      "url": "https://links.tldrnewsletter.com/RmvR1X",
-      "summary": "Un chercheur d'Anthropic affirme avoir découvert, avec l'aide de l'IA, une preuve de l'hypothèse de Riemann, le problème sur la répartition des nombres premiers qui résiste depuis 167 ans. La preuve, publiée le 20 novembre sous forme d'une bibliothèque Lean de 17 millions de lignes de code, compile correctement et prouve bien l'énoncé attendu. Les communautés Lean et Mathlib se disent pleinement confiantes ; il reste à la communauté mathématique d'en expliquer les idées dans les prochaines semaines."
-    },
-    {
-      "title": "L'IA provoque une pénurie de circuits imprimés",
+      "title": "Panne géante Microsoft 365 : le rapport final pointe des failles de tests",
       "source": "Tech · TLDR IT",
-      "url": "https://www.theregister.com/systems/2026/11/20/ai-boom-threatens-circuit-board-crunch-to-rival-pandemic-era-chip-shortage/5311335",
-      "summary": "La Global Electronics Association alerte sur la demande des serveurs IA, qui tend l'offre de circuits imprimés et évince les commandes de l'automobile, du médical et de l'industrie. Les cartes de plus en plus complexes consomment davantage de matière et de capacité de production. Un vrai soulagement n'est pas attendu avant mi-2028."
+      "summary": "Microsoft a publié son rapport d'incident définitif : un défaut Windows est passé inaperçu pendant des mois avant de saturer les serveurs passerelles de Microsoft 365. Au pic de la panne, plus de 80 % des passerelles nord-américaines ne répondaient plus, et des mails ne sont jamais arrivés. Le groupe reconnaît des lacunes dans ses tests de charge, ses procédures de bascule et sa capacité d'infrastructure, et promet de mieux isoler ses services et d'améliorer ses mécanismes de reprise.",
+      "url": "https://www.theregister.com/saas/2026/11/23/microsoft-mega-outage-report-reveals-testing-gaps-and-emails-that-never-arrived/5311656"
     },
     {
-      "title": "Bien-être : comment les investisseurs repèrent les marques qui durent",
-      "source": "Beauté · Beauty Independent",
-      "url": "https://www.beautyindependent.com/wellness-investors-retailers-spot-brands-last-dealmaker/",
-      "summary": "Plus d'un tiers des Américains jugent le bien-être central dans leur identité (McKinsey), ce qui attire une foule de marques. Au Dealmaker Summit de Beauty Independent à Londres, investisseurs et retailers ont expliqué leurs critères : coût d'acquisition client, taux de réachat et rentabilité comptent plus que la croissance du chiffre d'affaires. Chez Boots, les clientes cherchent des solutions à un besoin précis plutôt qu'une catégorie de produits. Pour Cristina Nuñez (True Beauty Ventures), la première commande se gagne facilement, mais c'est la seconde qui fait la différence."
+      "title": "Anthropic lance Claude Ship pour automatiser les pull requests",
+      "source": "Tech · TLDR AI",
+      "summary": "Claude Ship est un ensemble d'agents qui préparent les pull requests GitHub jusqu'au merge. Code Review signale les problèmes, PR Steward pousse les corrections, et Claude Approvals vérifie les changements par rapport à la politique d'approbation de l'équipe. Claude peut donc relire, corriger et approuver une PR, si les règles de l'équipe l'autorisent.",
+      "url": "https://claude.com/resources/articles/introducing-claude-ship"
     },
     {
-      "title": "Le parfum devient le nouveau terrain des collectionneurs, comme les sneakers",
+      "title": "Philip Kingsley veut reprendre sa place de leader du soin du cuir chevelu",
       "source": "Beauté · Beauty Independent",
-      "url": "https://www.beautyindependent.com/savoir-faire-chris-classic-fragrance-collecting-new-sneaker-culture/",
-      "summary": "Chris Classic, fondateur de Savoir Faire et du showroom de parfums indépendants The Blacknose Lab, explique que le parfum prend la place qu'occupaient les sneakers dans les années 80-90 : les consommateurs ne se contentent plus d'acheter, ils collectionnent, exposent et créent du contenu autour de leur « fragrance closet », rangée par familles (chypres, fougères, gourmands, agrumes). L'interview aborde aussi les opportunités pour les parfumeurs indépendants noirs, l'essor des marques portées par des créateurs et la volonté d'organiser les parfumeurs indépendants."
+      "summary": "Le scalp care est l'un des grands moteurs de croissance de la beauté, mais la marque britannique pionnière du segment n'en a pas profité à hauteur de son statut. Un an après son arrivée, le CEO Joseph Grigsby, passé par Estée Lauder et ancien responsable des ventes internationales de Virtue, revoit la distribution, prépare une forte accélération de l'innovation et vise l'international. Sa feuille de route tient en deux temps : remise à plat cette année, reconquête l'an prochain.",
+      "url": "https://www.beautyindependent.com/philip-kingsley-new-ceo-scalp-health-crown/"
+    },
+    {
+      "title": "Mayura, une marque capillaire qui célèbre les cheveux bouclés",
+      "source": "Beauté · Beauty Independent",
+      "summary": "L'ancienne journaliste tech Priya Anand (Bloomberg, The Information), qui animait déjà un podcast sur la politique des cheveux bouclés, lance Mayura, autofinancée. La gamme démarre avec une huile capillaire à 58 $, un foulard en soie à 250 $ et un chouchou en soie à 28 $. Son positionnement : rompre avec le discours des marques qui présentent les boucles et les frisottis comme quelque chose à dompter ou à corriger.",
+      "url": "https://www.beautyindependent.com/mayura-priya-anand-change-conversation-curly-hair/"
     }
   ]
 }
