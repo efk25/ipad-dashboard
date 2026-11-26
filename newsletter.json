@@ -1,41 +1,41 @@
 {
-  "title": "Matinale · mercredi 25 novembre",
+  "title": "Matinale · jeudi 26 novembre",
   "items": [
     {
-      "title": "Sanofi s'offre Insmed pour 37,6 Md€",
+      "title": "Apprentissage : la Cour des comptes chiffre la fraude potentielle à 1,5-3 Md€ par an",
       "source": "Actu générale · Aktionnaire",
-      "summary": "Le labo français rachète la biotech américaine Insmed, sa plus grosse acquisition depuis 2004. L'enjeu : le brevet du Dupixent, qui pèse environ 40 % du chiffre d'affaires, expire en 2031, et Sanofi n'a pas de successeur évident dans son pipeline. Avec Insmed, le groupe récupère deux traitements respiratoires déjà commercialisés, dont le Brinsupri, qui a dépassé 1 Md$ de ventes depuis son lancement. Détail piquant relevé par Aktionnaire : l'ex-patron de Sanofi, évincé en février, siège aujourd'hui au conseil d'Insmed. Le titre Sanofi a pris près de 10 % mardi.",
-      "url": "https://www.lesechos.fr/industrie-services/pharmacie-sante/sanofi-va-racheter-la-biotech-americaine-insmed-pour-41-milliards-de-dollars-2264229"
+      "summary": "Selon la Cour, entre 1,5 et 3 Md€ par an, soit 10 à 20 % du coût de la politique d'apprentissage, seraient exposés à la fraude ou aux abus ; Aktionnaire rappelle qu'il s'agit d'une estimation de fraude potentielle, pas avérée. L'enquête, menée sur 3 des 11 organismes financeurs (un tiers des contrats), relève des tuteurs encadrant jusqu'à 20 apprentis malgré un plafond légal de 2, et 35 000 entreprises sans aucun salarié mais avec au moins un apprenti, souvent des sociétés éphémères montées pour capter les aides. Pilier du bilan d'Emmanuel Macron, l'apprentissage est passé de 317 000 à 900 000 alternants entre 2018 et 2024, et son coût de 5,8 à 16 Md€. La Cour dénonce une « faille systémique » de contrôle ; le gouvernement parle plutôt d'un problème de coordination et juge le rapport un peu sévère.",
+      "url": "https://mailchi.mp/aktionnaire/arnaque-lapprenti"
     },
     {
-      "title": "La France veut constituer des stocks stratégiques de terres rares",
+      "title": "Droits de douane : Trump reconstruit son « mur de tarifs »",
       "source": "Actu générale · Aktionnaire",
-      "summary": "Sur le modèle des réserves pétrolières, l'État veut sécuriser ces métaux indispensables aux smartphones, voitures électriques et semi-conducteurs, dont la Chine détient 40 % des réserves, 70 % de l'extraction et 90 % du raffinage. La Caisse des dépôts va consulter l'aéronautique, la défense et l'automobile pour dimensionner les stocks, et des achats mutualisés entre industriels sont prévus pour mieux négocier les prix. Emmanuel Macron propose aussi de conditionner les aides publiques à la diversification, avec un plafond de 65 % de dépendance à un seul pays par matériau critique ; la France a déjà signé avec une vingtaine de pays producteurs. Restent le financement, encore flou (les États-Unis ont prévu 12 Md$ pour deux mois de stock), et un calendrier que la présidentielle pourrait retarder.",
-      "url": "https://www.franceinfo.fr/replay-radio/histoire-du-jour/pourquoi-la-france-veut-se-doter-de-stocks-strategiques-de-terres-rares_8295902.html"
+      "summary": "Donald Trump a annoncé une nouvelle hausse des tarifs douaniers à partir de janvier, à l'issue d'une enquête sur les surcapacités. Les exportations de l'Union européenne seraient taxées à 15 %, comme celles de la Corée du Sud et de la Suisse notamment, et la Chine à 20 %. L'objectif est de rétablir le dispositif que la Cour suprême avait démantelé en février dernier.",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-25/us-targets-china-eu-with-new-tariffs-after-overcapacity-probe"
     },
     {
-      "title": "Panne géante Microsoft 365 : le rapport final pointe des failles de tests",
-      "source": "Tech · TLDR IT",
-      "summary": "Microsoft a publié son rapport d'incident définitif : un défaut Windows est passé inaperçu pendant des mois avant de saturer les serveurs passerelles de Microsoft 365. Au pic de la panne, plus de 80 % des passerelles nord-américaines ne répondaient plus, et des mails ne sont jamais arrivés. Le groupe reconnaît des lacunes dans ses tests de charge, ses procédures de bascule et sa capacité d'infrastructure, et promet de mieux isoler ses services et d'améliorer ses mécanismes de reprise.",
-      "url": "https://www.theregister.com/saas/2026/11/23/microsoft-mega-outage-report-reveals-testing-gaps-and-emails-that-never-arrived/5311656"
-    },
-    {
-      "title": "Anthropic lance Claude Ship pour automatiser les pull requests",
+      "title": "L'IA enchaîne les percées mathématiques, jusqu'à l'hypothèse de Riemann",
       "source": "Tech · TLDR AI",
-      "summary": "Claude Ship est un ensemble d'agents qui préparent les pull requests GitHub jusqu'au merge. Code Review signale les problèmes, PR Steward pousse les corrections, et Claude Approvals vérifie les changements par rapport à la politique d'approbation de l'équipe. Claude peut donc relire, corriger et approuver une PR, si les règles de l'équipe l'autorisent.",
-      "url": "https://claude.com/resources/articles/introducing-claude-ship"
+      "summary": "Levent Alpöge, mathématicien passé par Harvard et Princeton aujourd'hui chez Anthropic, affirme avoir démontré l'hypothèse de Riemann avec l'aide de l'IA ; sa preuve de 17 millions de lignes a déjà été vérifiée par deux groupes indépendants, mais doit encore résister à un examen plus large. Dans la foulée, une preuve d'Anthropic établit que VP ≠ VNP, un résultat de complexité lié au problème P vs NP, et OpenAI publie un preprint montrant que l'exposant de la multiplication de matrices vaut 9/4. Ces preuves s'accompagnent de certifications formelles plus exigeantes que celles d'une revue classique, et le blogueur Scott Aaronson note que le phénomène pousse certains mathématiciens à repenser leur métier.",
+      "url": "https://www.wsj.com/tech/ai/riemann-hypothesis-anthropic-math-levent-alpoge-75351bcb?st=o1qGTt&reflink=desktopwebshare_permalink"
     },
     {
-      "title": "Philip Kingsley veut reprendre sa place de leader du soin du cuir chevelu",
-      "source": "Beauté · Beauty Independent",
-      "summary": "Le scalp care est l'un des grands moteurs de croissance de la beauté, mais la marque britannique pionnière du segment n'en a pas profité à hauteur de son statut. Un an après son arrivée, le CEO Joseph Grigsby, passé par Estée Lauder et ancien responsable des ventes internationales de Virtue, revoit la distribution, prépare une forte accélération de l'innovation et vise l'international. Sa feuille de route tient en deux temps : remise à plat cette année, reconquête l'an prochain.",
-      "url": "https://www.beautyindependent.com/philip-kingsley-new-ceo-scalp-health-crown/"
+      "title": "Cyberattaques : des agents IA trouvent et exploitent des failles quasiment seuls",
+      "source": "Tech · TLDR AI",
+      "summary": "Amazon rapporte que des agents IA tournant sur Cairn, un framework open source de tests d'intrusion, ont découvert et exploité une faille zero-day dans une application d'imagerie médicale hébergée sur un serveur universitaire, avec pour seule intervention humaine un prompt d'objectif. De son côté, Palo Alto Networks a suivi une campagne Cairn de 25 opérations autonomes visant au moins 19 organisations (semi-conducteurs, défense, société civile), dont au moins 10 ont été compromises. Le message d'Amazon, partagé par Google : les attaques offensives pilotées par agents sont déjà une réalité, et les défenseurs doivent se préparer à leur vitesse et leur persistance.",
+      "url": "https://arstechnica.com/security/2026/11/amazon-says-hackers-ai-agents-found-and-exploited-0-day-with-little-human-input/"
     },
     {
-      "title": "Mayura, une marque capillaire qui célèbre les cheveux bouclés",
+      "title": "Violet Grey : départs au sommet en pleine expansion",
       "source": "Beauté · Beauty Independent",
-      "summary": "L'ancienne journaliste tech Priya Anand (Bloomberg, The Information), qui animait déjà un podcast sur la politique des cheveux bouclés, lance Mayura, autofinancée. La gamme démarre avec une huile capillaire à 58 $, un foulard en soie à 250 $ et un chouchou en soie à 28 $. Son positionnement : rompre avec le discours des marques qui présentent les boucles et les frisottis comme quelque chose à dompter ou à corriger.",
-      "url": "https://www.beautyindependent.com/mayura-priya-anand-change-conversation-curly-hair/"
+      "summary": "Le distributeur beauté de luxe perd deux dirigeantes recrutées chez Bluemercury l'an dernier : Tracy Kline, présidente du groupe, et Emma Dee, SVP et responsable marketing, qui couvraient aussi The Detox Market. Le management penche désormais davantage vers des profils issus de l'investissement que du merchandising beauté. Ces départs tombent alors que Violet Grey prépare des ouvertures à Aspen et Dallas et vise 15 à 20 magasins d'ici trois à quatre ans ; la place de The Detox Market, rachetée l'an dernier par la maison mère, reste floue. Le CEO Sherif Guirgis défend un retail fondé sur la curation et le service, estimant que la distribution pure sera la première comprimée.",
+      "url": "https://www.beautyindependent.com/violet-grey-undergoes-executive-shakeup-retailer-ramps-up-expansion/"
+    },
+    {
+      "title": "Noël : la beauté pèse près d'un tiers du budget cadeaux des étudiants gen Z",
+      "source": "Beauté · Beauty Independent",
+      "summary": "D'après un sondage de The Art Agency auprès de près de 3 800 étudiants américains, ils prévoient de consacrer 97 $ à la beauté sur un budget cadeaux moyen de 314 $. Rhode arrive très largement en tête des marques citées spontanément (35 % des répondants), devant Shark et Dyson : les envies vont du rouge à lèvres abordable aux appareils haut de gamme. Pour le CEO de l'agence, Zach Mendelsohn, le prix n'est qu'un critère parmi d'autres : la gen Z achète un récit, un mouvement, une célébrité ou un créateur.",
+      "url": "https://www.beautyindependent.com/beauty-claims-nearly-third-of-gen-z-college-students-holiday-gift-budgets/"
     }
   ]
 }
