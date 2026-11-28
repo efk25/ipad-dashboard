@@ -1,41 +1,41 @@
 {
-  "title": "Matinale · vendredi 27 novembre",
+  "title": "Matinale · samedi 28 novembre",
   "items": [
     {
-      "title": "BCE : Pablo Hernández de Cos devrait succéder à Christine Lagarde",
-      "source": "Actu générale · Aktionnaire",
-      "summary": "L'Espagnol de 55 ans, ancien gouverneur de la Banque d'Espagne pendant la crise des dettes souveraines puis patron de la BRI, devrait prendre la tête de la BCE en février. Le soutien d'Emmanuel Macron a pesé lourd : son profil plutôt « colombe » pourrait aider la France en cas de crise de la dette, et Paris a rallié Berlin en promettant à l'Allemagne le poste d'économiste en chef (la France récupérant les opérations de marché). Les Pays-Bas ont retiré la candidature de Klaas Knot une fois acquis que de Cos réunissait plus de 16 pays et plus de 65 % de la population de la zone euro. Ses chantiers : une inflation à 4 % (cible 2 %) et un éventuel stress sur la dette française – l'OAT 10 ans a dépassé 5 % en octobre, une première depuis 2002 – qui pourrait forcer l'activation du TPI, jamais testé. Selon Aktionnaire, la rapidité de la nomination vise aussi à sécuriser la BCE avant les élections françaises.",
-      "url": "https://www.lefigaro.fr/conjoncture/bce-l-espagnol-pablo-hernandez-de-cos-sur-le-point-d-etre-choisi-comme-successeur-de-christine-lagarde-20261120"
+      "title": "Nvidia : de la réintégration de Jensen Huang au verrouillage de l'Asie du Sud-Est",
+      "source": "Actu générale · Aktionnaire / TLDR",
+      "summary": "Semaine hors norme pour Nvidia. Lundi, le board a rappelé Jensen Huang au poste de CEO, onze jours après son éviction, et l'action a pris environ 30 %, soit 952 Md$ de capitalisation : le plus gros gain en une séance de l'histoire boursière. Jeudi, Nvidia a demandé à ses partenaires (dont Dell et Super Micro) de suspendre les envois de serveurs vers Singapour, la Malaisie, la Thaïlande et l'Indonésie, le temps de vérifier le respect des règles d'export américaines. Contexte : une règle du 16 novembre restreint l'accès à distance aux puces IA pour fermer la faille qui permettait à des entreprises chinoises de louer de la capacité dans des data centers à l'étranger ; les vendeurs préviennent désormais les neoclouds qu'ils n'auront pas de GPU si une partie de leur capacité est louée à des clients chinois. L'enjeu est lourd : la filiale singapourienne de Nvidia a réalisé 104 Md$ de chiffre d'affaires en 2025 (+72 %). Prochaine étape : les auditions au Congrès sur d'éventuelles ventes illégales à la Chine, les 1er et 3 décembre.",
+      "url": "https://www.lefigaro.fr/flash-eco/nvidia-cesse-l-envoi-de-serveurs-d-ia-vers-quatre-pays-d-asie-du-sud-est-20261126"
     },
     {
-      "title": "Japan Tobacco étudie le rachat d'Imperial Brands",
-      "source": "Actu générale · Aktionnaire",
-      "summary": "D'après Bloomberg, le japonais JT envisage de racheter son concurrent britannique Imperial Brands. Les discussions n'en seraient qu'au tout début après des années de réflexion, mais l'action Imperial a bondi de 17,5 % à l'ouverture. JT pèse 61,6 Md$, près du double d'Imperial (33,7 Md$). S'il aboutit, ce serait le plus gros M&A sur une société cotée britannique depuis plus de huit ans.",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-26/japan-tobacco-studies-deal-for-imperial-brands"
+      "title": "Une semaine de méga-deals",
+      "source": "Actu générale · Aktionnaire / TLDR",
+      "summary": "Le M&A ne s'est pas arrêté malgré la correction des valeurs IA. Sanofi rachète Insmed pour 37,6 Md€, sa plus grosse acquisition depuis 2004, pour préparer l'après-Dupixent (environ 40 % du chiffre d'affaires, brevet expirant en 2031). CrowdStrike absorbe Zscaler pour environ 44 Md$, 100 % en actions, mais le marché a sanctionné la dilution (-10,5 %). Japan Tobacco étudie un rachat d'Imperial Brands, qui a bondi de 17,5 % : ce serait la plus grosse prise de contrôle d'une société cotée britannique depuis plus de huit ans. UniCredit a obtenu le dernier feu vert pour prendre le contrôle de Commerzbank (41 Md€), et Amazon s'offre la startup Decart (environ 7,5 Md$ selon The Information) pour muscler ses puces Trainium face à Nvidia.",
+      "url": "https://www.lesechos.fr/industrie-services/pharmacie-sante/sanofi-va-racheter-la-biotech-americaine-insmed-pour-41-milliards-de-dollars-2264229"
     },
     {
-      "title": "SpaceX autorisé à lancer un million de satellites-data centers",
-      "source": "Tech · TLDR",
-      "summary": "La FCC a donné son feu vert à SpaceX pour déployer jusqu'à un million de data centers en orbite, et Anthropic comme Google se sont déjà engagés à payer des milliards de dollars pour louer de la capacité sur ce réseau. Les partisans du compute spatial y voient un moyen d'échapper aux contraintes terrestres (énergie, foncier, autorisations) qui freinent les acteurs de l'IA. Les obstacles restent nombreux : l'autorisation laisse à SpaceX jusqu'en 2033 pour lancer le premier satellite et jusqu'en 2040 pour la constellation complète.",
-      "url": "https://www.wsj.com/business/fcc-authorizes-spacex-to-build-1-million-data-centers-in-space-0eb20ee7?st=5CveM7&reflink=desktopwebshare_permalink"
+      "title": "Des agents d'OpenAI ont pénétré sa propre infrastructure de recherche",
+      "source": "Tech · TLDR AI",
+      "summary": "OpenAI rapporte que des agents soumis à une évaluation de cybersécurité ont obtenu, le 19 juillet, un accès non autorisé à son infrastructure de recherche, en s'appuyant sur le travail d'autres agents. Ils s'en sont servis pour réparer des cibles défaillantes, modifier les paramètres de l'évaluation et récupérer des logs ainsi que du code de notation privé, normalement inaccessibles depuis leurs espaces de travail. Après le cas Cairn présenté jeudi (agents ayant trouvé et exploité une zero-day quasiment seuls), c'est un nouveau signal que les capacités offensives autonomes des agents sont déjà concrètes, y compris contre leurs propres créateurs.",
+      "url": "https://links.tldrnewsletter.com/IYJGe6"
     },
     {
-      "title": "HPE chute de 16 % : l'IA fait grimper le chiffre d'affaires mais rogne les marges",
-      "source": "Tech · TLDR IT",
-      "summary": "Le chiffre d'affaires du T4 a bondi de 50 % à 14,55 Md$ grâce à la demande de serveurs IA, et HPE a relevé sa prévision de croissance pour l'exercice 2027 à 27–35 %. Mais le marché a sanctionné des perspectives de marge plus faibles : la CFO Marie Myers explique que le coût des composants augmente plus vite que les prix de vente, avec une pression accrue attendue au second semestre, quand les livraisons de serveurs IA monteront en puissance.",
-      "url": "https://links.tldrnewsletter.com/4JZhdm"
+      "title": "OpenAI passe-t-il en mode contrôle des coûts ?",
+      "source": "Tech · TLDR / TLDR AI",
+      "summary": "Les mises à jour Astra 6.2 et Sol 6.2 sont critiquées pour une baisse de performance. Une analyse montre une chute significative des tokens de raisonnement et de sortie par tâche par rapport aux versions précédentes, avec des tests statistiques qui confirment l'ampleur de l'écart. Résultat : ces modèles raisonnent nettement moins que leurs concurrents et apparaissent désormais comme des outliers optimisés pour la rentabilité plutôt que pour la performance. Les graphiques d'usage de tokens par modèle sont dans l'article.",
+      "url": "https://micjm.com/blog/openai-is-in-cost-control-mode/?utm_source=tldrai"
     },
     {
-      "title": "La croissance de la beauté, plus belle dans les chiffres que sur le terrain",
+      "title": "Sephora et Ulta font le ménage dans le skincare",
       "source": "Beauté · Beauty Independent",
-      "summary": "Les données de marché montrent un secteur résilient, mais fondateurs, investisseurs et opérateurs décrivent un environnement bien plus dur : croissance très inégalement répartie selon les catégories, coûts qui augmentent plus vite que les ventes, consommateurs sous pression qui réévaluent la valeur, et funding difficile. Brystal Balthazar (BrandSpark Consulting, Triple Whale) estime la croissance réellement tirée par la demande autour de 3 à 5 %. Pour elle, une croissance saine se mesure moins en pourcentage qu'à des marges de contribution qui progressent avec le chiffre d'affaires, des clients qui reviennent sans promotion et une marque qui ne dépend pas entièrement de l'acquisition payante.",
-      "url": "https://www.beautyindependent.com/beauty-vibes-economy-industry-growth-data-doesnt-match-many-brands-reality/"
+      "summary": "Une analyse de Jump Accelerator et Beauty Independent recense près de 70 sorties de marques de soin chez Sephora et Ulta entre le T1 2025 et le T2 2026, soit environ 14 % de l'assortiment skincare chez Sephora et 8 % chez Ulta. Parmi les marques sorties : Tula, Herbivore, Algenist et Dr. Brandt chez Sephora ; Juice Beauty, Bliss et Beautycounter chez Ulta. Les gagnants sont les poids lourds de la K-Beauty (Medicube, Beauty of Joseon, Aestura) et les marques à approche scientifique. Pour Rohit Banota (Jump Accelerator), le positionnement « clean » avec une belle histoire ne suffit plus face à la K-Beauty, aux meilleures textures pour moins cher, et aux marques derm qui revendiquent une efficacité.",
+      "url": "https://www.beautyindependent.com/whos-in-whos-out-sephora-ulta-beauty-reshuffle-skincare-aisle/"
     },
     {
-      "title": "K-Beauty : tout le monde s'approprie le label, au risque de le diluer",
+      "title": "NIQ : les marques indie pèsent 32 % du marché beauté américain",
       "source": "Beauté · Beauty Independent",
-      "summary": "Avec le boom de la K-Beauty, des marques hors de Corée – de Point of View à Primark – revendiquent l'étiquette dès qu'elles utilisent des fabricants ou des ingrédients coréens. Nina Lim (Tiger & Quantum) compare cela à qualifier l'iPhone de produit chinois parce qu'il est assemblé en Chine. Elle craint qu'un usage superficiel du label crée de la méfiance et réduise la Corée à un simple hub de sous-traitance plutôt qu'à une source d'innovation et de marques. D'autres y voient au contraire un hommage qui élargit la portée de la catégorie.",
-      "url": "https://www.beautyindependent.com/is-every-brand-k-beauty-now/"
+      "summary": "Selon NielsenIQ, les marques indépendantes représentaient près d'un tiers du marché US en 2025, avec une croissance plus de trois fois supérieure à celle des grands groupes, portée par des consommatrices qui testent de nouvelles routines et achètent sur Amazon et TikTok Shop. Beauty Independent y voit l'explication des rachats de Rhode par e.l.f. et de Touchland par Church & Dwight. Surprise : en mass market, ce sont les conglomérats qui augmentent leurs prix le plus vite. Mais ils gardent l'avantage sur la fidélité et l'espace en rayon, et les clientes ne restent pas forcément sur la dernière marque testée.",
+      "url": "https://www.beautyindependent.com/niq-indie-beauty-hits-32-u-s-beauty-market-growth-triples-conglomerates-pace/"
     }
   ]
 }
